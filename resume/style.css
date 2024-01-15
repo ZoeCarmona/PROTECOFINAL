@@ -1,0 +1,148 @@
+body{
+    background-color: #D2E3C8;
+    font-family: 'Playpen Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #739072;
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+}
+
+ul, a{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    ul {
+        flex-direction: column; 
+        align-items: center;
+        padding-left: 0;
+    }
+}
+
+/* -------------------------- MAIN-------------------------------- */
+.main{
+    text-align: center;
+}
+
+.main_t{
+    text-align: center;
+    background-color: #86A789;
+    padding: 5px;
+}
+
+.main_sec{
+    text-align: center;
+    margin: 20px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_img{
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    .main_sec{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .logo_img{
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 1124px) {
+    .logo_img{
+        width: 180px;
+        height: auto;
+    }
+}
+
+/* ------------ Codes------------- */
+.main_s{
+    text-align: center;
+}
+
+.main_icon{
+    align-items: center;
+    margin: 20px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 480px) {
+    .main_icon{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .icon{
+        width: 200px;
+        height: auto;
+        margin: 0px 0px 40px 0px;
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 1124px) {
+    .icon{
+        width: 150px;
+        height: auto;
+        margin: 0px 0px 40px 0px;
+    }
+}
+/*----------------------- Footer -----------------------------------  */
+footer{
+    background-color: #4F6F52;
+    color: white;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+}
+
+.foot_text{
+    padding: 10px 50px 0px 50px;
+}
+
+.foot_image{
+    margin: 0px 0px 30px 0px;
+    width: 50px;
+    height: auto;
+}
+
+.copy{
+    display: block;
+    text-align: center; 
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 480px){
+    .foot_text{
+        text-align: center;
+    }
+
+    .foot_image{
+        width: 50px;
+        height: auto;
+    }
+}
